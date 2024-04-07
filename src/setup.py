@@ -52,7 +52,7 @@ class Setup:
             None
         """
 
-        # If the target bucket exists, create an object of its content
+        # If the target bucket exists, create an object of its content.
         objects = src.s3.objects.Objects(service=self.__service, bucket_name=self.__s3_parameters.external)
         iterable = objects.filter(prefix=self.__s3_parameters.path_external_quantiles)
 

@@ -16,7 +16,6 @@ RUN groupadd --system readers --gid $GID && \
 
 # Specific COPY
 COPY src /app/src
-COPY resources /app/resources
 COPY config.py /app/config.py
 
 # Port
