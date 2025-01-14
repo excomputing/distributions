@@ -27,7 +27,7 @@ docker run --rm -i -t -p 127.0.0.1:10000:8050 -w /app
   --mount type=bind,src="$(pwd)",target=/app -v ~/.aws:/root/.aws excomputing
 ```
 
-For options explanatory notes, visit
+For `options` explanatory notes, visit
 
 * [--rm](https://docs.docker.com/engine/reference/commandline/run/#:~:text=a%20container%20exits-,%2D%2Drm,-Automatically%20remove%20the)
 * [-i](https://docs.docker.com/engine/reference/commandline/run/#:~:text=and%20reaps%20processes-,%2D%2Dinteractive,-%2C%20%2Di)
