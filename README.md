@@ -1,9 +1,5 @@
 <br>
 
-<span style="color: #555555"><b>IN PROGRESS</b></span>
-
-<br>
-
 master <br>
 [![Distributions](https://github.com/enqueter/distributions/actions/workflows/main.yml/badge.svg?branch=master)](https://github.com/enqueter/distributions/actions/workflows/main.yml)
 
