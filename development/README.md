@@ -40,7 +40,7 @@ Note, `-p 10000:8050` maps the host port `10000` to container port `8050`.  The 
 docker ps --all
 ```
 
-A developer may attach an IDE (independent development environment) application to a running container.  Considering 
+A developer may attach an IDE (integrated development environment) application to a running container.  Considering 
 IntelliJ IDEA:
 
 > Connect to the Docker [daemon](https://www.jetbrains.com/help/idea/docker.html#connect_to_docker)
